@@ -1,0 +1,8 @@
+Strings: es una cadena de caracteres, es decir que cada símbolo que se encuentro dentro de las comillas, es un string, incluidos los espacios en blanco.
+
+Funciones (argumentos, return): las funciones son relaciones entre distintos elementos que interactúan, haciendo que algo entre y algo salga de la función. Como si fuera una fábrica, entra la materia prima y sale el producto final que es el que conocemos todos como un celular, una mesa o un manteca.
+Los argumentos son parámetros que utiliza la función, es decir que es información que va a utilizar la función (es como su materia prima). Y por último el return es una orden que se le da a la función para que nos devuelva algo. Por ejemplo en la fábrica podemos usar el return para que devuelva un mensaje que la producción terminó sin problemas.
+
+Declaraciones if: es el si condicional. Si pasa esto, hacé esto, y si pasa esto otro, hacé lo otro.
+
+Valores booleanos (true, false): valores de verdad. Son comparaciones que siempre devuelen true or false. por ejeplo si queremos comparar numeros.
