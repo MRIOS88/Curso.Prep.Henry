@@ -1,0 +1,2 @@
+Array: es una colección de datos, una lista e elementos, donde cada elemento es un espacio donde se gurdan caracteres. Pueden ser strings, booleanos, numeros, etc.
+Un Array puede contener en sus elementos a otro Array.
