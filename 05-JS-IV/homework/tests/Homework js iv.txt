@@ -1,0 +1,21 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos
+Propiedades
+Métodos
+Bucle for…in
+Notación de puntos vs notación de corchetes
+
+Objetos: son contenedores de datos que están relacionados entre sí. Mientras los arrays son una colección de datos que no necesariamente se relacionan entre sí, en los objetos, los datos que lo componen sí se relacionan. Es como que el objeto es el cuerpo
+y los datos son los óganos que se encuentran en su interior. Todos forman parte del objeto. Los Objetos tienen sus atributos entre llaves {}
+
+Propiedades: es cada uno de los órganos del objeto. Si pensamos los objetos como coleccion de regitros, las propiedades son los campos que a su vez contienen registros.
+dicho de otro modo, si el objeto es el cuerpo, los órganos son las propiedades y desntro de cada órgano se encuentran los registros. Entonces podemos decir que las propiedades son los órganos. Las propiedades son las caracterírsticas de cada objeto.
+
+Métodos: en los objetos los organos se llaman key (clave) y lo que se encuentra dentro de estos se llaman value (valor). Entones dentro de cada objeto tenemos a los pare de vaoles clave:valor(key:value).
+Los métodos, son los value que guardan FUNCIONES.
+
+Bucle for.... in: es como el blucle for of de los array, solo que en los arrays, se indexa cada elemento. Es decir que se les da un número para reoresentar el orden de los elementos dentro de la lista.
+En los bucles for in, no se puede indexar, porque se trata de otro tipo de datos, por lo que se usa for in, que es muy similar, solo que admite esos datos. Por supuesto que tiene sus caracterírsticas de sintxis, etc.
+
+Notación de puntos vs notación de corchetes: en la primera (dot notation) se pone el nombre del objeto.key y retorna el value. En la segunda notación (bracket notation), se escribe el objeto[key] y nos devolverá el value. Es más cómodo usar la dot notation, pero la de corchetes supuestamente permitiría realizar mas acciones.
