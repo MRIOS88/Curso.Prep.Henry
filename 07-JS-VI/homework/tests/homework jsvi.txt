@@ -1,0 +1,2 @@
+Callback: es una función dentro de otra función. Cuando a una funcion le pasamos como argumento otra funcion,
+se llama callback o cb a es función dentro del argumento. 
