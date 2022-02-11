@@ -60,3 +60,10 @@ pero piden usar el atributo position
 #ejercicioCinco {
     flex-direction: row-reverse;
 }
+
+/* Ejercicio 7. 
+PRACTICAR PONER EN DIFERENTES POSICIONES. Y HAY EJERCICIOS EXTRA Y HABIA EXTRAS EN LA CARPETA HTML DE LA
+LESSON 8*/
+#ejercicioSiete {
+    flex-direction: row;
+}
