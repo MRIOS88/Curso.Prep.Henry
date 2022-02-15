@@ -72,6 +72,14 @@ function asAmirror(str) {
   }).join(" ");
 } 
 
+  //if (str === "") // This is the terminal case that will end the recursion
+    //return "";
+  
+  //else
+    //return asAmirror(str.substr(1)) + str.charAt(0);
+//}
+
+
 
 function capicua(numero){
   //Escribe una función, la cual recibe un número y determina si es o no capicúa.
