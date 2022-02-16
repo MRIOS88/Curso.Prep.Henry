@@ -142,12 +142,27 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  let nuevoArray = arr.sort(function(a, b) {
-    return a.length - b.length;
-  });
-  return nuevoArray;
+//  let nuevoArray = arr.sort(function(a, b) {
+//    return a.length - b.length;
+//  });
+//  return nuevoArray;
+//}
+var cambio = true;
+while (cambio) {
+  cambio = false;
+  for (i=0; i< arr.length-1; i++) {
+    if (arr[i].length > arr[i+1].length) {
+      var aux = arr[i];
+      arr[i] = arr[i+1];
+      arr [i+1] = aux;
+      cambio = true;
+    }
+  }
+}
+return arr;
 }
 
+//console.log(sortArray(["abc", "ab", "a", "abcde", "ab", "abcdefg"]));
 
 function buscoInterseccion(arreglo1, arreglo2){
   //Existen dos arrays, cada uno con 5 números. A partir de ello, escribir una función que permita 
