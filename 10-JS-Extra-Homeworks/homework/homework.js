@@ -59,7 +59,13 @@ function capToFront(s) {
   };
   return mayusculas.concat(minusculas).join("");
 }
+//tambien se puede hacer con strings vacios en vez de mayuscula[], minuscula []
+// renglon bjo el if como no es array, no puede pushear, entonces hace
+//mayus y minus +=s[i];
+//pero el final de la funcion cambia el return:
+//return string.concat(""; string2);
 
+//otro hace la ultima linea mas facil. return mayus + minus;
 
 function asAmirror(str) {
   //La función recibe una frase. 
@@ -72,6 +78,15 @@ function asAmirror(str) {
   }).join(" ");
 } 
 
+//otro lo guarda en un variable:
+//var invertida = str.split(" ").map(function(elemento) {
+//  return elemento.split("").reverse.join("");
+//});
+// return invertida.join(" ");
+
+//console.log(asAmirror("The Henry Challenge is close!"));
+
+// este funcionaria si no tuviera los espacios el string a devolver!
   //if (str === "") // This is the terminal case that will end the recursion
     //return "";
   
@@ -108,6 +123,19 @@ function deleteAbc(cadena){
   }
   return cadena2;
 }
+//otra forma de otro (notar la diferencia en el if -mientras el de arriba niega !== , el de abajo
+//compara === )
+//let cadena2 = "";
+//
+//for (i=0; i<cadena.length; i++) {
+//  if (cadena[i] === "a"|| cadena[i] === "b"|| cadena[i] === "c") {
+//  continue;
+//  }
+//  else {
+//  cadena2 += cadena[i];
+//  }
+//}
+//}
 
 
 function sortArray(arr) {
