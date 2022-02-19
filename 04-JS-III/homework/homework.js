@@ -251,7 +251,7 @@ function continueStatement(numero) {
   }
   return nuevoArray;
 }
-
+//console.log(continueStatement(2));
 
 // No modificar nada debajo de esta línea
 // --------------------------------
