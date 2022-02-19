@@ -119,6 +119,10 @@ function fizzBuzz(numero) {
           return numero;
         }
 }
+//COMENTARIO: es importante poner primero el if con el condicional &&,
+//porq es lo primero que ve le intérprete. Si se pone primero alguno de los otros dos,
+//lo que pasará es que los evaluará y si llega a ser true, no evalua más porq el return
+//devuelve eso y finaliza la función.
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -166,6 +170,8 @@ function esVerdadero(valor){
     return "Soy falso";
   }
 }
+// en la solución del video luego del if ponen otro if (valor === false)...
+
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
@@ -174,6 +180,13 @@ function tablaDelSeis(){
   let tablaSeis = [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60];
   return tablaSeis;
 }
+//En el video de clase lo hacen mejor que el mío:
+// var array = [];
+// for (i=0; i<11; i++) {
+//   array.push(i * 6);
+// }
+// return array;
+// }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
@@ -192,6 +205,9 @@ function doWhile(numero) {
   } while (i<8);
   return numero;
 }
+
+// console.log(doWhile(8));
+
 
 
 // No modificar nada debajo de esta línea
