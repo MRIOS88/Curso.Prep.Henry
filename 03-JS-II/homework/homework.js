@@ -31,8 +31,24 @@ function conection(status) {
     return "Away";
     } else {
     return "Offline";
-      }
+    }
 }
+//   switch (status) {
+//     case 1:
+//     return "Online";
+//     break;
+
+//     case 2:
+//     return "Away";
+//     break;
+
+//     default:
+//     return "Offline";
+//     break;
+      
+//   }
+// }
+
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -123,6 +139,8 @@ function fizzBuzz(numero) {
 //porq es lo primero que ve le intérprete. Si se pone primero alguno de los otros dos,
 //lo que pasará es que los evaluará y si llega a ser true, no evalua más porq el return
 //devuelve eso y finaliza la función.
+//Es decir que el intérprete no lee todo el bloque de código para después evaluarlo,
+//sino que lo que hace es el línea por línea viendo que si algo se cumple, lo ejecutará.
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
